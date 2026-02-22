@@ -661,6 +661,8 @@ if (isset($_POST['create_consultation'])) {
     </style>
 </head>
 <body>
+ 
+        
     <div class="container">
         <!-- Header -->
         <div class="header">
@@ -818,7 +820,7 @@ if (isset($_POST['create_consultation'])) {
                 <?php endforeach; ?>
             <?php endif; ?>
         </div>
-
+                       
         <!-- High Risk Students from Mood Data -->
         <div class="students-table">
             <h2>
@@ -908,7 +910,7 @@ if (isset($_POST['create_consultation'])) {
             </table>
         </div>
     </div>
-
+</div>
     <script>
         // Risk Distribution Pie Chart
         const riskDistData = {

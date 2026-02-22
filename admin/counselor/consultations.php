@@ -476,21 +476,9 @@ $counselors = getAllCounselors(true);
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <div class="sidebar-header">
-            <h2>Admin Panel</h2>
-            <p>Consultation Management</p>
-        </div>
-        <div class="sidebar-menu">
-            <a href="dashboard.php"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
-            <a href="consultations.php" class="active"><i class="fas fa-calendar-check"></i> Consultations</a>
-            <a href="counselors.php"><i class="fas fa-users"></i> Counselors</a>
-            <a href="risk-monitor.php"><i class="fas fa-exclamation-triangle"></i> Risk Monitor</a>
-            <a href="../admin/courses.php"><i class="fas fa-book"></i> Courses</a>
-            <a href="users.php"><i class="fas fa-user-graduate"></i> Users</a>
-            <a href="reports.php"><i class="fas fa-chart-bar"></i> Reports</a>
-        </div>
-    </div>
+    
+     <!-- Sidebar -->
+    <?php include '../../sidebar.php'; ?>
 
     <div class="main-content">
         <div class="header">
