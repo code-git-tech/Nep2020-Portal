@@ -89,6 +89,20 @@ transition duration-300">
             <i class="fas fa-upload w-5"></i>
             <span class="ml-3">Content Upload</span>
         </a>
+        <!--Mood- REPORTS -->
+        <a href="mood-reports.php"
+           class="flex items-center px-4 py-3 rounded-lg transition 
+           <?= $current_page == 'mood-reports.php' ? 'bg-blue-600 text-white shadow' : 'hover:bg-gray-800 text-gray-300' ?>">
+            <i class="fas fa-chart-bar w-5"></i>
+            <span class="ml-3">Mood-Reports</span>
+        </a>
+        <!-- Risk-monitor -->
+        <a href="risk-monitor.php"
+           class="flex items-center px-4 py-3 rounded-lg transition 
+           <?= $current_page == 'risk-monitor.php' ? 'bg-blue-600 text-white shadow' : 'hover:bg-gray-800 text-gray-300' ?>">
+            <i class="fas fa-chart-bar w-5"></i>
+            <span class="ml-3">Risk Monitor</span>
+        </a>
 
         <!-- REPORTS -->
         <a href="reports.php"

@@ -91,6 +91,18 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <span class="font-medium">Tests & Quizzes</span>
                 </a>
             </li>
+            <!-- Mood -->
+            <li>
+                <a href="mood.php"
+                   class="flex items-center space-x-3 px-4 py-3 rounded-xl transition
+                   <?= $current_page == 'mood.php'
+                        ? 'bg-white/20 backdrop-blur text-white shadow'
+                        : 'text-white/80 hover:bg-white/10' ?>">
+                    <i class="fas fa-file-alt w-5"></i>
+                    <span class="font-medium">My mood</span>
+                </a>
+            </li>
+
 
             <!-- Certificates -->
             <li>
